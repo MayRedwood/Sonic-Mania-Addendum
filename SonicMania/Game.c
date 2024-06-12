@@ -62,7 +62,7 @@ void GlobalVariables_InitCB(GlobalVariables *globals)
     globals->stock          = (ID_AMY << 24) | (ID_RAY << 16) | (ID_KNUCKLES << 8) | ID_TAILS;
     globals->characterFlags = ID_SONIC | ID_TAILS | ID_KNUCKLES | ID_MIGHTY | ID_RAY | ID_AMY;
 
-    globals->superMusicEnabled = true;
+    globals->superMusicEnabled = false;
 #endif
 }
 #endif
